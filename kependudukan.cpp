@@ -26,7 +26,7 @@ main(){
 	do{
 	system("cls");
 	cout<<garis<<"\nDATA KEPENDUDUKAN\n"<<garis<<endl;
-	cout<<"\t1. INPUT DATA\n\t2. TAMPILKAN DATA\n\t3. SEARCHING DATA\n\t4. SORTING DATA\n\t5. TRANSAKSI\n\t6. KELUAR\n";
+	cout<<"\t1. INPUT DATA\n\t2. TAMPILKAN DATA\n\t3. SEARCHING DATA\n\t4. SORTING DATA\n\t5. FILE\n\t6. KELUAR\n";
 	cout<<garis<<endl<<garis<<"\nMasukkan Pilihan\t= ";cin>>menu;system("cls");
 	if(menu==1){input();
 	}else if(menu==2){output();
@@ -456,7 +456,7 @@ void trx(){
 	char ulang;
 	int size,x,j;
 	do{system("cls");
-	cout<<garis<<"\n      MENU TRANSAKSI\n"<<garis<<"\n1. Merging Sambung\n2. Merging Urut\n3. Updating\n4. Splitting\n"<<garis;
+	cout<<garis<<"\n      MENU FILE\n"<<garis<<"\n1. Merging Sambung\n2. Merging Urut\n3. Updating\n4. Splitting\n"<<garis;
 	cout<<"\nMasukkan Pilihan\t= ";cin>>menu;
 	if(menu==1){
 		do{
